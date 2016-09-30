@@ -281,7 +281,7 @@ function $SanitizeProvider() {
       'scope,scrolling,shape,size,span,start,summary,tabindex,target,title,type,' +
       'valign,value,vspace,width');
 
-  var materialLayoutAttrs = makeMap('layout,layout-xs,layout-gt-xs,layout-sm,layout-gt-sm,layout-md,layout-gt-md,'+
+  var materialLayoutAttrs = toMap('layout,layout-xs,layout-gt-xs,layout-sm,layout-gt-sm,layout-md,layout-gt-md,'+
     'layout-lg,layout-gt-lg,layout-xl,flex,flex-order,flex-order-xs,flex-order-gt-xs,flex-order-sm,flex-order-gt-sm,'+
     'flex-order-md,flex-order-gt-md,flex-order-lg,flex-order-gt-lg,flex-order-xl,flex-offset,flex-offset-xs,'+
     'flex-offset-gt-xs,flex-offset-sm,flex-offset-gt-sm,flex-offset-md,flex-offset-gt-md,flex-offset-lg,flex-offset-gt-lg,'+
